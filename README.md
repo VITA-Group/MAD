@@ -1,5 +1,5 @@
 Before running the code, make sure that the folder is named as `MAD`. 
-Also modify two variables `hdd_dir` and `ImageNet_dir` in `common_flags.py` to valid path on your own machine.
+Also modify two variables `hdd_dir` and `ImageNet_dir` in `common_flags.py` to valid paths on your own machine.
 
 
 ## Crawl images from internet
