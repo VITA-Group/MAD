@@ -14,6 +14,7 @@ Run `python dataset/construct_dataset.py` under project root dir, or run `python
 First run `python save_jsons.py` under `class_info`. 
 Then run `python construct_path.py` under project root dir.
 These two commands will construct and save multiple `.json`, `.csv` and `.txt` files, which mainly aims at showing the WordNet tree hierarchy.
+All these files are already uploaded in this repo, so you can skip this step if you want.
 For example, `code_with_imgnet_id_readable.json` shows the paths from WordNet root node to each ImageNet class leaf node.
 Take the item with key="872" in `code_with_imgnet_id_readable.json` as an example, this item shows that the path from root node to leaf node "tripod", which has id=872 in ImageNet is: 
 "tripod; rack, stand; support; device; instrumentality, instrumentation; artifact, artefact; whole, unit; object, physical object; physical entity; entity".
