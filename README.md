@@ -1,4 +1,5 @@
-Before running the code, make sure that the folder is named as `MAD`.  
+Before running the code, make sure that the folder is named as `MAD`. 
+Also modify two variables `hdd_dir` and `ImageNet_dir` in `common_flags.py` to valid path on your own machine.
 
 
 ## Crawl images from internet
@@ -6,7 +7,7 @@ Run `python images-web-crawler/sample_ours.py` under project root dir, or run `p
 Most files under `images-web-crawler` comes from this [repo](https://github.com/amineHorseman/images-web-crawler). Thanks to the authors for their great work!
 Note that `images-web-crawler` only support Python2, while the rest of this repo support Python3.
 
-## Arrange the crawled image and construct them as a dataset
+## Arrange the crawled images and construct them as a dataset
 Run `python dataset/construct_dataset.py` under project root dir, or run `python construct_dataset.py` under `dataset`.  
 
 ## Get WordNet tree hierarchy

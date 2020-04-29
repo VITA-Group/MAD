@@ -2,8 +2,8 @@ from argparse import Namespace
 import os
 
 root_dir = os.path.join(os.path.expanduser('~'), 'MAD')
-hdd_dir = '/hdd3/haotao/MAD'
-ImageNet_dir = '/hdd3/haotao/imagenet_pytorch_download'
+hdd_dir = '/valida/path/on/your/machine/MAD'
+ImageNet_dir = '/valida/path/on/your/machine/imagenet_pytorch_download'
 
 json_dir = os.path.join(root_dir, 'class_info')
 label_path = os.path.join(root_dir, 'dataset', 'labels.txt')
