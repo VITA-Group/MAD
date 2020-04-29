@@ -1,0 +1,16 @@
+.vscode/
+__pycache__
+*.png
+*.jpg
+*.bmp
+*.jpeg
+*.npy
+*.pyc
+predictions
+selected_50
+imagenet_results
+compare_results
+*.zip
+*.pdf
+*.pptx
+temp*
